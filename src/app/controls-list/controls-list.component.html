@@ -1,0 +1,13 @@
+<!-- Show it when there is no employee -->
+<div class="no-data text-center" *ngIf="Controls.length == 0">
+    <p>There is no employee added yet!</p>
+    <button class="btn btn-outline-primary" routerLink="/create-employee">Add Empoyee</button>
+</div>
+
+<div class="entity-bg-area">
+    <img style="width: 1064px;" src="../../assets/Account.png" alt="">
+    <div>
+        <app-control *ngFor="let control of Controls" [ngStyle]="{'top.px':control.top, 'left.px':control.left}">
+        </app-control>
+    </div>
+</div>

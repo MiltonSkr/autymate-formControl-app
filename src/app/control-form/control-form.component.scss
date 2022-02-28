@@ -1,0 +1,56 @@
+.w-btn {
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+.w-btn.btn__primary {
+    margin-right: 0vw;
+    padding-top: 13px;
+    padding-right: 28.5px;
+    padding-bottom: 13px;
+    padding-left: 28.5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f46549;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.44;
+    text-decoration: none;
+  }
+  
+  .btn__primary:hover {
+    background-color: #dc5b42;
+  }
+  
+  .btn__primary.my-15 {
+    margin-bottom: 1.5rem;
+    align-self: center;
+  }
+  
+  .btn__primary.my-15:tiny {
+    margin-bottom: 1rem;
+  }
+
+  .btn__reset {
+    background-color: #f3f3f3;
+    color: rgba(33,33,33,0.64);
+    margin-right: 0vw;
+    padding-top: 13px;
+    padding-right: 28.5px;
+    padding-bottom: 13px;
+    padding-left: 28.5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+

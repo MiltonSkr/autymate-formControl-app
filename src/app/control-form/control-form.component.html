@@ -1,0 +1,46 @@
+<form [formGroup]="entityForm" (ngSubmit)="onSubmit()">
+    <!-- source Input -->
+    <div fxLayout="row" fxLayoutGap="30px">
+        <label>
+            <h4>Source Name</h4>
+            <input class="k-textbox fill-container" value="" placeholder="Enter Source Name" formControlName="source" />
+        </label>
+
+        <!-- Destination Input -->
+        <label>
+            <h4>Destination Name</h4>
+            <input class="k-textbox fill-container" value="" placeholder="Enter Destination Name"
+                formControlName="destination" />
+        </label>
+
+        <!-- Destination Input -->
+        <label>
+            <h4>Mapping Field Name</h4>
+            <input class="k-textbox fill-container" value="" placeholder="Enter Field Name"
+                formControlName="fieldName" />
+        </label>
+    </div>
+
+    <div fxLayout="row" fxLayoutGap="30px">
+        <!-- Left Position Input -->
+        <label>
+            <h4>Top Position</h4>
+            <input class="k-textbox fill-container" value="" placeholder="Enter Left Position" formControlName="top" />
+        </label>
+
+        <!-- Left Position Input -->
+        <label>
+            <h4>Left Position</h4>
+            <input class="k-textbox fill-container" value="" placeholder="Enter Right position"
+                formControlName="left" />
+        </label>
+    </div>
+
+
+    <div class="form__actions" style="margin-top: 30px;">
+        <button class="w-btn btn__primary" type="submit" [disabled]="entityForm.invalid" style="margin-right:30px">
+            Create
+        </button>
+        <button class="w-btn btn__reset" (click)="resetValue()">Reset Values</button>
+    </div>
+</form>

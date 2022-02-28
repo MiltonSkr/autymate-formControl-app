@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "id": 1,
+      "source": "Excel",
+      "destination": "Qucikbooks Online",
+      "fieldName": "Account Type",
+      "top": "104",
+      "left": "15"
+    },
+    {
+      "source": "csv",
+      "destination": "qbo",
+      "fieldName": "Name",
+      "top": "104",
+      "left": "310",
+      "id": 2
+    },
+    {
+      "source": "json",
+      "destination": "abd",
+      "fieldName": "details typs",
+      "top": "176",
+      "left": "15",
+      "id": 3
+    },
+    {
+      "source": "csv",
+      "destination": "qbo",
+      "fieldName": "Number",
+      "top": "176",
+      "left": "319",
+      "id": 4
+    }
+  ]
+}
